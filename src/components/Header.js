@@ -102,12 +102,30 @@ const RightMenu = styled.div`
 display:flex;
 a{
     margin-right:13px;
+    padding:10px;
+    border-radius:10px;
+}
+a:hover{
+    background-color:#6b706c;
+    opacity:0.6;
+    padding:10px;
+    border-radius:10px;
+    transition:3.9s ease-out; 
 }
 
 
 `
 const CustomMenu = styled.div`
 cursor:pointer;
+padding:10px;
+border-radius:10px;
+&:hover{
+    background-color:#6b706c;
+    opacity:0.6;
+    padding:10px;
+    border-radius:10px;
+    transition:3.9s ease-out; 
+}
 `
 
 const BurgerNav = styled.div`
@@ -143,9 +161,9 @@ const CloseWrapper = styled.div`
 display:flex;
 justify-content:flex-end;
 p:hover{
-    background:#3c3c3c;
+    background:#d2d5d9;
     border-radius:40px;
-    opacity:0.5;
+    opacity:0.7;
 }
 
 `
