@@ -5,22 +5,22 @@ function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false)
     return (
         <Container>
-            <a href="#">
+            <a href="https://github.com/johnbabu021">
                 <img src="/images/logo.svg" alt="noimage" />
 
             </a>
             <Menu>
-                <a href="#">Model S</a>
-                <a href="#">Model 3</a>
-                <a href="#">Model X</a>
-                <a href="#">Model Y</a>
+                <a href="https://github.com/johnbabu021">Model S</a>
+                <a href="https://github.com/johnbabu021">Model 3</a>
+                <a href="https://github.com/johnbabu021">Model X</a>
+                <a href="https://github.com/johnbabu021">Model Y</a>
 
             </Menu>
 
             <RightMenu>
 
-                <a href="#">Shop</a>
-                <a href="#">Account</a>
+                <a href="https://github.com/johnbabu021">Shop</a>
+                <a href="https://github.com/johnbabu021">Account</a>
                 <CustomMenu onClick={() => setBurgerStatus(!burgerStatus)}>
                     Menu
                 </CustomMenu>
@@ -30,19 +30,19 @@ function Header() {
                             <CustomClose onClick={() => setBurgerStatus(!burgerStatus)} />
                         </p>
                     </CloseWrapper>
-                    <li><a href="#">Existing Inventory</a></li>
-                    <li><a href="#">Used Inventory</a></li>
-                    <li><a href="#">Trade-in</a></li>
-                    <li><a href="#">Test Drive</a></li>
-                    <li><a href="#">CyberTruck</a></li>
-                    <li><a href="#">Roadster</a></li>
-                    <li><a href="#">Semi</a></li>
-                    <li><a href="#">Charging</a></li>
-                    <li><a href="#">Powerall</a></li>
-                    <li><a href="#">Commercial Energy</a></li>
-                    <li><a href="#">Utilities</a></li>
-                    <li><a href="#">Found us</a></li>
-                    <li><a href="#">Support</a></li>
+                    <li><a href="https://github.com/johnbabu021">Existing Inventory</a></li>
+                    <li><a href="https://github.com/johnbabu021">Used Inventory</a></li>
+                    <li><a href="https://github.com/johnbabu021">Trade-in</a></li>
+                    <li><a href="https://github.com/johnbabu021">Test Drive</a></li>
+                    <li><a href="https://github.com/johnbabu021">CyberTruck</a></li>
+                    <li><a href="https://github.com/johnbabu021">Roadster</a></li>
+                    <li><a href="https://github.com/johnbabu021">Semi</a></li>
+                    <li><a href="https://github.com/johnbabu021">Charging</a></li>
+                    <li><a href="https://github.com/johnbabu021">Powerall</a></li>
+                    <li><a href="https://github.com/johnbabu021">Commercial Energy</a></li>
+                    <li><a href="https://github.com/johnbabu021">Utilities</a></li>
+                    <li><a href="https://github.com/johnbabu021">Found us</a></li>
+                    <li><a href="https://github.com/johnbabu021">Support</a></li>
 
 
                 </BurgerNav>
